@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/craft-construct-v3/static/css/main.dd01dd44.css",
-    "main.js": "/craft-construct-v3/static/js/main.c618f6ab.js",
+    "main.js": "/craft-construct-v3/static/js/main.4f23fe18.js",
     "static/media/4.jpg": "/craft-construct-v3/static/media/4.7a9e598ac73741847dcc.jpg",
     "static/media/contact.jpg": "/craft-construct-v3/static/media/contact.26838a44939c92378a28.jpg",
     "static/media/5.jpg": "/craft-construct-v3/static/media/5.f988316d3de15cded43b.jpg",
@@ -13,10 +13,10 @@
     "static/media/whiteLogo.webp": "/craft-construct-v3/static/media/whiteLogo.216215db95437f8c6c02.webp",
     "index.html": "/craft-construct-v3/index.html",
     "main.dd01dd44.css.map": "/craft-construct-v3/static/css/main.dd01dd44.css.map",
-    "main.c618f6ab.js.map": "/craft-construct-v3/static/js/main.c618f6ab.js.map"
+    "main.4f23fe18.js.map": "/craft-construct-v3/static/js/main.4f23fe18.js.map"
   },
   "entrypoints": [
     "static/css/main.dd01dd44.css",
-    "static/js/main.c618f6ab.js"
+    "static/js/main.4f23fe18.js"
   ]
 }
