@@ -1,0 +1,69 @@
+.latest-projects {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Default: Three columns
+    grid-auto-rows: 300px; // Set a fixed height for each row
+    grid-gap: 20px; // Space between items
+
+    // Define layout for grid items
+    .grid-item-1,
+    .grid-item-2,
+    .grid-item-3,
+    .grid-item-4,
+    .grid-item-5,
+    .grid-item-6,
+    .grid-item-7,
+    .grid-item-8 {
+      grid-row: span 1; // Ensure all items take up 1 row
+    }
+    .grid-item-1{
+      grid-row: span 2;
+    }
+    .grid-item-2{
+      grid-column: span 2;
+    }
+    .grid-item-5{
+      grid-column:span 2;
+    }
+    .grid-item-6{
+      grid-row: span 2;
+    }
+
+    .project-image {
+      width: 100%;
+      height: 100%; // Fill the grid cell
+      object-fit: cover; // Ensure the image covers the grid cell without leaving spaces
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    // Media query for tablet screens
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr; // Switch to one column layout
+      grid-auto-rows: 150px; // Adjust the row height for smaller screens
+
+      .grid-item-1,
+      .grid-item-2,
+      .grid-item-3,
+      .grid-item-4,
+      .grid-item-5,
+      .grid-item-6,
+      .grid-item-7,
+      .grid-item-8 {
+        grid-row: span 1; // Ensure all items take up 1 row
+        grid-column: 1; // Full width of column
+      }
+    }
+
+    // Media query for mobile screens
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr; // One column layout
+      grid-auto-rows: 120px; // Adjust the row height for mobile
+
+      .project-image {
+        height: 120px; // Ensure fixed height for images on small screens
+        object-fit: cover; // Ensure image scales properly without leaving spaces
+      }
+    }
+  }
+}
